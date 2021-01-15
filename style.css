@@ -1,0 +1,98 @@
+section {
+    display: flex;
+    font-family: 'Josefin Sans';
+}
+
+h1 {
+    font-size: 75px;
+    color: hsl(0, 6%, 24%);
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 65%;
+    letter-spacing: 20px;
+    line-height: 85px;
+    margin: 0;
+    margin-top: 110px;
+
+}
+
+p {
+    font-size: 16px;
+    color: hsl(0, 36%, 70%);
+    font-weight: 400;
+    width: 50%;
+    line-height: 30px;
+}
+
+span {
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
+
+input {
+    width: 300px;
+    border: 1px solid #E6D3D0;
+    border-radius: 30px;
+    padding: 20px 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+input:focus {
+    border-radius: 30px;
+    outline: none;
+
+}
+
+::placeholder {
+    color: hsl(0, 36%, 70%);
+
+}
+
+#background-arrow {
+    background: linear-gradient(135deg, hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+    width: 95px;
+    height: 60px;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 238px;
+    left: 442px;
+    box-shadow: 5px 8px 8px 2px hsl(0, 80%, 86%);
+    border: none;
+    cursor: pointer;
+}
+
+#background-arrow:focus {
+    outline: none;
+}
+
+#arrow {
+    width: 20px;
+}
+
+#container-text {
+    width: 55%;
+    padding: 90px 160px;
+}
+
+#container-image {
+    width: 45%;
+}
+
+#woman-photo {
+    width: 100%;
+}
+
+#ifWrong {
+    color: hsl(0, 93%, 68%);
+    font-size: 12px;
+    display: none;
+    margin-left: 23px;
+}
+
+@media (max-width: 480px) {
+    
+    
+}
